@@ -1,3 +1,5 @@
+import java.util.HashSet;
+
 public class ContainsDuplicate {
     public boolean duplicate(int[] nums){
         for (int i = 0; i<nums.length; i++){
@@ -11,7 +13,18 @@ public class ContainsDuplicate {
     }
     public static void main(String[] args) {
         ContainsDuplicate sol = new ContainsDuplicate();
-        int[] nums = {10,2,3,1};
-        System.out.print(sol.duplicate(nums));
+        int[] nums = {1,2,3,1};
+        System.out.println(sol.duplicate(nums));
+        HashSet<Integer> seen = new HashSet<>();
+        for (int num: nums){
+            if (seen.contains(num)){
+                System.out.println("Duplicate: "+ num);
+            }
+            else{
+            seen.add(num);
+            System.out.println("Not a Duplicate");
+            }
+        }
+        
     }
 }
