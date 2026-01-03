@@ -11,7 +11,6 @@ public class PlusOne {
             }
             nums[i] = 0;
         }
-        
         int[] res = new int[nums.length+1];
         res[0] = 1;
         return res;
