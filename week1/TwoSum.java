@@ -20,5 +20,6 @@ public class TwoSum {
         int tak = 7;
         System.out.print(Arrays.toString(sol.twoSum(arr,tak)));
         
+        
     }
 }
