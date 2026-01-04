@@ -7,7 +7,7 @@ public class BuySellStock {
                 min = price;
             }
             else{
-                max = Math.max(max, price-min);
+                max = Math.max(max, price - min);
             }
         }
         return max;
