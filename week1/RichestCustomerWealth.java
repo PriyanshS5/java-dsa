@@ -1,14 +1,14 @@
 public class RichestCustomerWealth {
     public int maximumWealth(int[][] accounts) {
-        int maxSum= 0;
-        for (int[] customer : accounts) {
-            int sum = 0;
-            for (int money : customer) {
-                sum += money;
-            }
-    maxSum = Math.max(maxSum, sum);
+       int maxPaisa = 0;
+       for (int[] customer : accounts){
+        int sum = 0;    
+        for(int paisa : customer){
+            sum += paisa;
+            maxPaisa = Math.max(maxPaisa, sum);
         }
-        return maxSum;
+       }
+       return maxPaisa;
 
     }
 
