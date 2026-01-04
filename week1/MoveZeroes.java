@@ -2,16 +2,15 @@ import java.util.Arrays;
 
 public class MoveZeroes {
     public void moveZ(int[] arr){
-        int n = arr.length;
-        int ins = 0;
-        for (int i =0; i < n; i++){
-            if(arr[i] != 0){
+        int ins = 0; 
+        for(int i = 0; i < arr.length; i++){
+            if(arr[i] != 0 ){
                 arr[ins] = arr[i];
                 ins++;
             }
         }
-        while(ins < n){
-            arr[ins] =0;
+        while (ins < arr.length){
+            arr[ins] = 0;
             ins++;
         }
     }
