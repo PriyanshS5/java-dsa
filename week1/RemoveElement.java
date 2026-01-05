@@ -10,7 +10,7 @@ public class RemoveElement {
             }
         }
         while(pos<nums.length){
-            nums[pos] = '_';
+            nums[pos] = val;
             pos++;
         }
         return k;
