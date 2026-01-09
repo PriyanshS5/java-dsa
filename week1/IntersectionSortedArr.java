@@ -4,13 +4,13 @@ import java.util.HashSet;
 
 public class IntersectionSortedArr {
     public int[] interCourse(int[] nums1, int[] nums2){
-        HashSet<Integer> setting = new HashSet<>();
+        HashSet<Integer> settin = new HashSet<>();
         HashSet<Integer> result = new HashSet<>();
         for(int num: nums1){
-            setting.add(num);
+            settin.add(num);
         }
         for(int num : nums2){
-            if(setting.contains(num)){
+            if(settin.contains(num)){
                 result.add(num);
             }
         }
