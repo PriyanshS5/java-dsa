@@ -1,5 +1,5 @@
 public class RemoveElement {
-    public int ele(int[] nums, int val){
+    public int elem(int[] nums, int val){
         int k = 0;
         int pos = 0; 
         for(int i = 0; i< nums.length; i++){
@@ -19,7 +19,7 @@ public class RemoveElement {
         RemoveElement sol = new RemoveElement();
         int[] arr = {1,2,2,4,5,2};
         int val = 2;
-        System.out.println(sol.ele(arr, val));
+        System.out.println(sol.elem(arr, val));
         
     }
 }
