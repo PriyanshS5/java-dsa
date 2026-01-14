@@ -14,10 +14,10 @@ public class AnagramSB {
     }
 
     public static void main(String[] args) {
-        AnagramSB sol = new AnagramSB();
+        AnagramSB soll = new AnagramSB();
         String ji = "car";
         String pi = "arc";
 
-        System.out.println(sol.ana(ji, pi));
+        System.out.println(soll.ana(ji, pi));
     }
 }
