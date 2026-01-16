@@ -1,5 +1,5 @@
 public class FirstUniqueCharF {
-    public int freak(String s){
+    public int freaky(String s){
         int[] freq = new int[26];
         
         for(int i = 0 ; i < s.length(); i++){
@@ -15,6 +15,6 @@ public class FirstUniqueCharF {
     public static void main(String[] args) {
         FirstUniqueCharF sol = new FirstUniqueCharF();
         String s = "hhappy";
-        System.out.println(sol.freak(s));
+        System.out.println(sol.freaky(s));
     }
 }
