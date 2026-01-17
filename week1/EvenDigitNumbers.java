@@ -1,5 +1,5 @@
 public class EvenDigitNumbers {
-    public int findNumbers(int[] nums){
+    public int findNumber(int[] nums){
         int output = 0;
         for (int num : nums){
             int count = 0;
@@ -17,6 +17,6 @@ public class EvenDigitNumbers {
     public static void main(String[] args) {
         EvenDigitNumbers sol = new EvenDigitNumbers();
         int[] acc = {123,745,91829,8888};
-        System.out.println(sol.findNumbers(acc));
+        System.out.println(sol.findNumber(acc));
     }
 }
