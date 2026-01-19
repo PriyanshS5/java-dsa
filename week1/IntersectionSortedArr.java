@@ -24,10 +24,10 @@ public class IntersectionSortedArr {
     }
 
     public static void main(String[] args) {
-        IntersectionSortedArr sol = new IntersectionSortedArr();
+        IntersectionSortedArr solv = new IntersectionSortedArr();
         int[] arr = {1,2,2,1};
         int[] arrr = {1,2,2};
 
-        System.out.println(Arrays.toString(sol.interCourse(arr, arrr)));
+        System.out.println(Arrays.toString(solv.interCourse(arr, arrr)));
     }
 }
