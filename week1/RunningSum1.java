@@ -15,8 +15,8 @@ public class RunningSum1 {
 
     }
     public static void main(String[] args) {
-        RunningSum1 sol = new RunningSum1();
+        RunningSum1 solu = new RunningSum1();
         int[] aura = {1,1,1,1,1};
-        System.out.println(Arrays.toString(sol.sum(aura)));
+        System.out.println(Arrays.toString(solu.sum(aura)));
     }
 }
