@@ -8,6 +8,8 @@ public class SumOfArray {
             sum += arr[i];
         }
 
-        System.out.println("Sum = " + sum);
+        System.out.println( sum);
+
+        
     }
 }
