@@ -1,7 +1,7 @@
 import java.util.Arrays;
 
 public class RotateArray {
-    public void rotate(int[] nums, int  k){
+    public void rotater(int[] nums, int  k){
         int n = nums.length;
         k %= n;
 
@@ -25,7 +25,7 @@ public class RotateArray {
         RotateArray sol = new RotateArray();
         int[] nums = {1,2,3,4,5,6,7};
         int k = 3;
-        sol.rotate(nums, k);
+        sol.rotater(nums, k);
         System.out.print(Arrays.toString(nums));
     }
 }
