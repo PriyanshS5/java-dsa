@@ -1,5 +1,5 @@
 public class RichestCustomerWealth {
-    public int maximumWealth(int[][] accounts) {
+    public int maximaWealth(int[][] accounts) {
        int maxPaisa = 0;
        for (int[] customer : accounts){
         int sum = 0;    
@@ -15,6 +15,6 @@ public class RichestCustomerWealth {
     public static void main(String []args){
         RichestCustomerWealth sol = new RichestCustomerWealth();
         int[][] acc = {{1,2,3},{8,9,3},{10,3,4,5}};
-        System.out.println(sol.maximumWealth(acc));
+        System.out.println(sol.maximaWealth(acc));
     }
 }
