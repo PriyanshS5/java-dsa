@@ -13,8 +13,8 @@ public class RichestCustomerWealth {
     }
 
     public static void main(String []args){
-        RichestCustomerWealth sol = new RichestCustomerWealth();
+        RichestCustomerWealth soll = new RichestCustomerWealth();
         int[][] acc = {{1,2,3},{8,9,3},{10,3,4,5}};
-        System.out.println(sol.maximaWealth(acc));
+        System.out.println(soll.maximaWealth(acc));
     }
 }
