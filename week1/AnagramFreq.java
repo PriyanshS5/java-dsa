@@ -17,9 +17,9 @@ public class AnagramFreq{
     }
 
     public static void main(String[] args) {
-        AnagramFreq sam = new AnagramFreq();
+        AnagramFreq sami = new AnagramFreq();
         String g = "car";
         String p = "rat";
-        System.out.println(sam.gram(g, p));
+        System.out.println(sami.gram(g, p));
     }
 }
