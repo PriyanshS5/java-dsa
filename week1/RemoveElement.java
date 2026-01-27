@@ -16,10 +16,10 @@ public class RemoveElement {
         return k;
     }
     public static void main(String[] args) {
-        RemoveElement sol = new RemoveElement();
+        RemoveElement soll = new RemoveElement();
         int[] arr = {1,2,2,4,5,2};
         int val = 2;
-        System.out.println(sol.elem(arr, val));
+        System.out.println(soll.elem(arr, val));
         
     }
 }
