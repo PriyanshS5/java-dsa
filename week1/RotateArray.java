@@ -22,10 +22,10 @@ public class RotateArray {
     }
 
     public static void main(String[] args) {
-        RotateArray sol = new RotateArray();
+        RotateArray soll = new RotateArray();
         int[] nums = {1,2,3,4,5,6,7};
         int k = 3;
-        sol.rotater(nums, k);
+        soll.rotater(nums, k);
         System.out.print(Arrays.toString(nums));
     }
 }
