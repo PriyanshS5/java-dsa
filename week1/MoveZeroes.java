@@ -15,9 +15,9 @@ public class MoveZeroes {
         }
     }
     public static void main(String[] args) {
-        MoveZeroes sol = new MoveZeroes();
+        MoveZeroes soll = new MoveZeroes();
         int arr[] = {0,1,0,3,1,2};
-        sol.moveZs(arr);
+        soll.moveZs(arr);
         System.out.print(Arrays.toString(arr));
     }
 }
