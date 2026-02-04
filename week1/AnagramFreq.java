@@ -1,5 +1,5 @@
 public class AnagramFreq{
-    public boolean gram(String s, String t){
+    public boolean grammy(String s, String t){
         if(s.length() != t.length()) return false;
         int[] freq = new int[26];
 
@@ -20,6 +20,6 @@ public class AnagramFreq{
         AnagramFreq sami = new AnagramFreq();
         String g = "car";
         String p = "rat";
-        System.out.println(sami.gram(g, p));
+        System.out.println(sami.grammy(g, p));
     }
 }
