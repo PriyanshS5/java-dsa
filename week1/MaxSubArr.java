@@ -12,8 +12,8 @@ public class MaxSubArr {
     }
 
     public static void main(String[] args) {
-        MaxSubArr yos = new MaxSubArr();
+        MaxSubArr yes = new MaxSubArr();
         int[] arr = {-1,-6,9,5,-1,2,1,-3};
-        System.out.println(yos.maxi(arr));
+        System.out.println(yes.maxi(arr));
     }
 }
