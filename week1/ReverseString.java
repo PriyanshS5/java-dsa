@@ -1,7 +1,7 @@
 import java.util.Arrays;
 
 public class ReverseString {
-    public void reversed(char[] s){
+    public void reversedy(char[] s){
         int n = s.length;
         int l = 0;
         int r = n-1;
@@ -18,7 +18,7 @@ public class ReverseString {
     public static void main(String[] args) {
         ReverseString sol = new ReverseString();
         char s[] = {'h','e','l','l','o'};
-        sol.reversed(s);
+        sol.reversedy(s);
         System.out.println(Arrays.toString(s));
     }
 
